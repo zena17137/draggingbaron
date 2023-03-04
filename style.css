@@ -1,0 +1,42 @@
+body {
+	display: flex;
+	justify-content: center;
+	height: 100vh;
+	align-items: center;
+	flex-direction: column;
+}
+
+#gameboard {
+	display: flex;
+}
+
+.square {
+	width: 200px;
+	height: 200px;
+}
+
+.beige {
+	background-color: #E3E3C7;
+}
+
+.brown {
+	background-color: #A52A2A;
+}
+
+#info {
+	height: 30px;
+}
+
+#Baron {
+	width: 200px;
+	height: 200px;
+}
+
+.highlight {
+	background-color: #E96666;
+}
+
+.target {
+	border: 10px solid #A93838;
+	box-sizing: border-box;
+}
